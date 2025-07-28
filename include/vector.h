@@ -21,7 +21,7 @@ typedef struct {
     int capacity;
 } Vector;
 
-Vector *vector_init();
+Vector *vector_init(void);
 void vector_push(Vector *v, void *item);
 void *vector_get(Vector *v, int index);
 void vector_free(Vector *v);

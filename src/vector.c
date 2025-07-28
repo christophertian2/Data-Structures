@@ -5,7 +5,7 @@
 
 #define INIT_CAPACITY 4
 
-Vector *vector_init(){
+Vector *vector_init(void){
     Vector *v = malloc(sizeof(Vector));
     assert(v != NULL);
     v->data = malloc(sizeof(void *) * INIT_CAPACITY);

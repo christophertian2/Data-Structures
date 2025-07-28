@@ -1,6 +1,6 @@
 GC = gcc
 CFLAGS = -Wall -Iinclude
-SRC = src/vector.c
+SRC = src/vector.c 
 TEST = tests/test_vector.c
 BIN = test_vector.out
 
